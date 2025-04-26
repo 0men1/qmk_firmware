@@ -26,10 +26,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [1] = LAYOUT_all( //F-keys
-        QK_GESC,  _______,  _______,  _______,  _______,  _______,     _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,
+         KC_GRV,  KC_BRMD,  KC_BRMU,  _______,  _______,  _______,    _______,  _______,  _______,  _______,  _______,  _______,  RGB_MOD,  RGB_TOG,
          KC_TAB,  KC_F1,    KC_F2,    KC_F3,    KC_F4,   _______,     _______,  _______,  KC_MS_U,  KC_WH_L,  KC_WH_U,  KC_WH_R,  _______,  _______,
         _______,  KC_F5,    KC_F6,    KC_F7,    KC_F8,   _______,     _______,  KC_MS_L,  KC_MS_D,  KC_MS_R,  KC_WH_D,  _______,            _______,
-        KC_LSFT,  KC_F6,    KC_F7,    KC_F8,    KC_F9,   _______,     _______,  _______,  _______,  _______,  _______,            _______,
+        KC_LSFT,  KC_F6,    KC_F7,    KC_F8,    KC_F9,   _______,     KC_LEFT,  KC_DOWN,    KC_UP, KC_RIGHT,  _______,            _______,
         KC_LCTL,  KC_LALT,  KC_LGUI,          KC_BTN1,   KC_BTN1,      KC_MUTE,           KC_BTN2,  _______,  _______,  _______,            _______
     ),
 
